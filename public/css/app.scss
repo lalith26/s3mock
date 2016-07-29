@@ -1,0 +1,47 @@
+html,
+body {
+   margin: 0;
+   padding: 0;
+   background-color: #EFEAE2;
+   font-size: 20px;
+   height: 100%;
+   width: 100%;
+}
+
+#container, .app-container, .app-grid-container, .app-col-container {
+    height: 100%;
+}
+
+.loading-container {
+    width: 100%;
+    height: 100%;
+}
+
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid black; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+input:focus{
+    outline: none;
+}
+
+@import './vendor_css/basscss.min';
+@import './vendor_css/font-awesome.min';
+@import './components/navbar';
+@import './components/tree';
+@import './components/rightpane';
+@import './components/folder';
+@import './components/file';
