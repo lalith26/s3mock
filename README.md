@@ -63,3 +63,7 @@ The user must have S3 permissions to list bucket and get object and the bucket s
 - File System Screen shot 1
 
     ![alt tag](https://raw.githubusercontent.com/lalith26/s3mock/master/screenshots/two.png)
+
+- My S3 Console
+
+    ![alt tag](https://raw.githubusercontent.com/lalith26/s3mock/master/screenshots/mys3console.png)
